@@ -1,0 +1,7 @@
+stages:
+  train:
+    cmd: python pipeline.py
+    deps:
+      - pipeline.py
+    outs:
+      - model
