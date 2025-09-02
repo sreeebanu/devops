@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python pipeline.py
+    deps:
+    - path: pipeline.py
+      hash: md5
+      md5: 92a6b0c376fabe98935559161b10ba16
+      size: 1068
+    outs:
+    - path: model
+      hash: md5
+      md5: 8511e0b09c6c3ea1957c62a5c424137b.dir
+      size: 7833
+      nfiles: 1
