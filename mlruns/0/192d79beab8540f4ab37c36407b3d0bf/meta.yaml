@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/shish/OneDrive/Desktop/devops/mlruns/0/192d79beab8540f4ab37c36407b3d0bf/artifacts
+end_time: 1757770923175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 192d79beab8540f4ab37c36407b3d0bf
+run_name: colorful-flea-416
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757770902952
+status: 3
+tags: []
+user_id: shish

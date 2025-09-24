@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/shish/OneDrive/Desktop/devops/mlruns/0/854fbe1bc95240d59c84aade49d550e0/artifacts
+end_time: 1756824511771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 854fbe1bc95240d59c84aade49d550e0
+run_name: loud-jay-849
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756824497307
+status: 3
+tags: []
+user_id: shish

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/shish/OneDrive/Desktop/devops/mlruns/0/7614d0f2d4774a64b790ec1a6942d3f2/artifacts
+end_time: 1756828665851
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7614d0f2d4774a64b790ec1a6942d3f2
+run_name: big-grub-963
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756828660667
+status: 3
+tags: []
+user_id: shish
