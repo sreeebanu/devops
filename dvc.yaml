@@ -3,5 +3,11 @@ stages:
     cmd: python pipeline.py
     deps:
       - pipeline.py
-    outs:
-      - model
+    params:
+      - train.n_estimators
+    metrics:
+      - metrics.json:
+          cache: false
+    plots:
+      - plots:
+          cache: false

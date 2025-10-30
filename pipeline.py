@@ -8,6 +8,10 @@ import os
 import joblib
 from sklearn.datasets import make_classification
 
+# Set MLflow tracking URI to local directory
+mlflow.set_tracking_uri("./mlruns")
+os.makedirs("./mlruns", exist_ok=True)
+
 # Generate synthetic dataset with enough samples
 data_X, data_y = make_classification(
     n_samples=100,
