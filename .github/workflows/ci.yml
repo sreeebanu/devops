@@ -19,11 +19,13 @@ jobs:
         pip install dvc
         pip install mlflow
     
+    - name: Pull DVC data (if using remote storage)
+      run: dvc pull
+    
     - name: Run DVC pipeline
       run: dvc repro
     
-    - name: Create MLFlow directory
-      run: mkdir -p mlruns
-    
-    - name: Run MLflow tracking
-      run: python python-pipeline.py
+    - name: Run ML pipeline
+      run: |
+        mkdir -p mlruns
+        python python-pipeline.py
