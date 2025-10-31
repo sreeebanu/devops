@@ -1,0 +1,15 @@
+# params.yaml
+train:
+  n_estimators: 100
+  # Add other required parameters
+  max_depth: 5
+  learning_rate: 0.1
+
+process:
+  # Add process parameters if needed
+  test_size: 0.2
+  random_state: 42
+# Add any other parameters your DVC pipeline expects
+data:
+  raw_path: data/raw
+  processed_path: data/processed
