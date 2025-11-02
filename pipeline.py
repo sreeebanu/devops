@@ -1,6 +1,30 @@
 import mlflow
 import mlflow.sklearn
 import os
+import shutil
+
+# 🧹 Clean old MLflow directories (removes C: references)
+if os.path.exists("mlruns"):
+    shutil.rmtree("mlruns", ignore_errors=True)
+os.makedirs("mlruns", exist_ok=True)
+
+# 🧩 Ensure output dirs exist
+os.makedirs("plots", exist_ok=True)
+os.makedirs("artifacts", exist_ok=True)
+
+import mlflow
+import mlflow.sklearn
+import platform
+import numpy as np
+import joblib
+import json
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+mlflow.set_tracking_uri("file:./mlruns")
+
 import platform
 import numpy as np
 import joblib
