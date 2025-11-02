@@ -9,5 +9,5 @@ stages:
       - metrics.json:
           cache: false
     plots:
-      - plots:
+      - plots/:
           cache: false
